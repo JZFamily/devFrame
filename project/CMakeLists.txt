@@ -4,7 +4,7 @@
 #@version：
 #        v1.3.09.23 create by jzf
 #@description:
-#        
+#        devFrame 一个使用cmake的c++开发框架
 #
 #######################################################################
 cmake_minimum_required(VERSION 3.8.1)
@@ -45,4 +45,6 @@ else()
 #linux
 endif()
 
+add_subdirectory(modules)
 add_subdirectory(source)
+add_subdirectory(test)
